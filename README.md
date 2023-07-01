@@ -12,23 +12,6 @@ An up-to-date 2021 example of how you can use Mocha and Chai to perform API test
 
 Read the [Test Guide](TEST_GUIDE.md) for instructions on how to perform local and automated testing.
 
-### Test plan
-
-In this project:
-
-- `test/productRoutes.test.ts` contains unit and integration tests for `src/routes/productRoutes.ts`.
-- `src/routes/productRoutes.ts` contains routes which interact with `src/services/ProductService.ts`.
-- `src/services/ProductService.ts` contains service methods which interact with `src/models/Product.ts`.
-
-View the [Test Plan](TEST_PLAN.md) for more information.
-
-### Releases
-
-**Stable release:** [`v0.1.3`](https://github.com/DigiPie/mocha-chai-mongoose/releases)
-
-- Implementation of `GET`, `POST`, `PUT` and `DELETE` routes
-- 16 unit test cases testing the API routes individually
-- 6 integration test cases testing route pairs (e.g. `GET` and `PUT`)
 
 **Current release:** [`v0.1.3`](https://github.com/DigiPie/mocha-chai-mongoose/releases)
 
