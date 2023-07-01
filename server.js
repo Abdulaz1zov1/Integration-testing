@@ -54,6 +54,40 @@ app.get('/api', async(req, response)=>{
 
 
 
+app.get('/api/:id', async(req, response)=>{
+    try {
+        const result = await User.findById({_id: req.params.id})
+        response
+                .status(StatusCodes.OK).json({
+                                              data: result
+                                             })
+    } catch (err) {
+        response
+                .status(StatusCodes.NOT_FOUND).json({
+                                                     message: "Nout Found"
+                                                   })
+    }
+})
+
+
+
+app.delete('/api/:id', async(req, response)=>{
+    try {
+        await User.findByIdAndDelete({_id: req.params.id})
+        response
+                .status(StatusCodes.OK).json({
+                                              data: []
+                                             })
+    } catch (err) {
+        response
+                .status(StatusCodes.NOT_FOUND).json({
+                                                     message: "Nout Found"
+                                                   })
+    }
+})
+
+
+
 
 
 const port = process.env.PORT || 3000

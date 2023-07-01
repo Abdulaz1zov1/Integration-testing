@@ -27,3 +27,26 @@ describe("GET request", function(){
         })
     })
 })
+
+
+describe("GET request", function(){
+    describe("get by user", function(){
+        it("success should return true", function(){
+            app.get("/api/:id").end((err, res)=>{
+                expect(200)
+            })
+        })
+    })
+})
+
+
+
+describe("DELETE request", function(){
+    describe("delete by user", function(){
+        it("success should return true", function(){
+            app.delete("/api/:id").end((err, res)=>{
+                expect(200)
+            })
+        })
+    })
+})
