@@ -1,7 +1,3 @@
-# mocha-chai-mongoose
-
-![Node.js CI](https://github.com/DigiPie/mocha-chai-mongoose/workflows/Node.js%20CI/badge.svg)
-
 ## Introduction
 
 An up-to-date 2021 example of how you can use Mocha and Chai to perform API testing for a Node-ExpressJS-Mongoose app. You will be able to test your code locally and also automatically using Github Action. 
