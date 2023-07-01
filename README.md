@@ -1,21 +1,7 @@
 ## Introduction
 
-An up-to-date 2021 example of how you can use Mocha and Chai to perform API testing for a Node-ExpressJS-Mongoose app. You will be able to test your code locally and also automatically using Github Action. 
+An up-to-date 2023 example of how you can use Mocha and Chai to perform API testing for a Node-ExpressJS-Mongoose app. You will be able to test your code locally and also automatically using Github Action. 
 
-## Project
-
-### Setup instructions
-
-Read the [Test Guide](TEST_GUIDE.md) for instructions on how to perform local and automated testing.
-
-
-**Current release:** [`v0.1.3`](https://github.com/DigiPie/mocha-chai-mongoose/releases)
-
-This project will not be frequently worked on beyond [`v0.1.0`](https://github.com/DigiPie/mocha-chai-mongoose/releases).
-
-### Contributing
-
-If you have any suggestions, bugs to report or would like to contribute to this project, feel free to create an [Issue](https://github.com/DigiPie/mocha-chai-mongoose/issues) or [Pull Request](https://github.com/DigiPie/mocha-chai-mongoose/pulls).
 
 ## Background info
 
